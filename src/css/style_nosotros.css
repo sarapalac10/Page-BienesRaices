@@ -1,0 +1,32 @@
+/*Nosotros*/
+
+.contenedor{
+    width: 95%;
+    max-width: 120 rem;
+    margin: 0 auto;
+}
+
+    @media (min-width: 768px) {
+        .contenido-nosotros {
+            display:grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 3rem;
+        }
+    }
+
+.texto-nosotros blockquote {
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 1rem 0 3rem 0;
+    margin: 0;
+    text-align: center;
+}
+
+img{
+    width: 80%;
+}
+
+p{
+    font-size: 2rem;
+    text-align: justify;
+}
